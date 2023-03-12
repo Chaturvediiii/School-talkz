@@ -1,0 +1,1348 @@
+/* main */
+.main {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.homeLeft {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.homeRight {
+  width: 80%;
+  border-radius: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* sidebar */
+
+.sidebar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 7rem;
+  height: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  margin-top: 3.5rem;
+  width: 100%;
+  margin: 3.5rem 0.5rem;
+}
+
+.wrapper > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  width: 100%;
+justify-content: left;
+
+}
+
+.wrapper > ul > li {
+  list-style: none;
+  font-size: 1.25rem;
+cursor: pointer;
+  display: flex;
+  color: rgba(255, 255, 255, 0.7);
+align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper > li > img {
+  width: 20%;
+}
+.wrapper > ul > li > p {
+  width: 75%;
+  font-size: 1.25rem;
+}
+
+.if{
+ width: 150%;
+ border-radius: 8px;
+ padding: 0.25rem;
+ background: #061A6F;
+ align-items: center;
+ cursor: pointer;
+}
+
+
+
+
+/* header */
+
+.header {
+  position: relative;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  background: #f2f6ff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0px 1rem;
+}
+
+.staff {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.staff > span {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user > img {
+  margin-right: 0.5rem;
+}
+
+.userImage {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.userImage > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* form */
+
+.form {
+  position: relative;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f6ff;
+}
+
+.info {
+  border-top-right-radius: 16px;
+  border-top-left-radius: 16px;
+  background: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+
+.info > h1 {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.col {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem 2rem;
+  margin: 1rem 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.row > input {
+  padding: 0.65rem 1.5rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 4px;
+  margin-top: 0.25rem;
+}
+
+.row > select {
+  background: #fafafa;
+  font-size: 0.5rem;
+}
+
+.buttons {
+  display: flex;
+  padding: 1rem 3rem;
+  width: 100%;
+  justify-content: right;
+  background: #fff;
+  border-bottom-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.buttons > button {
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  border-radius: 12px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cancel {
+  background-color: #de2135;
+  margin-right: 2rem;
+}
+
+.submit {
+  background: linear-gradient(180deg, #0a1122 0%, #03194d 100%);
+  margin-right: 2rem;
+}
+
+@media (max-width: 768px) {
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* profile */
+.profile {
+  position: relative;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f2f6ff;
+  padding: 1rem;
+  height: 100%;
+}
+
+.general {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 2rem;
+  width: 100%;
+
+}
+
+.teacher {
+  background: linear-gradient(180deg, #0a1122 0%, #03194d 100%);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.staffProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.staffProfile > p {
+  font-size: 1.05rem;
+  text-align: center;
+}
+
+.staffProfile > h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.vector {
+  width: 10rem;
+  height: 10rem;
+  border-bottom-right-radius: 16px;
+}
+
+.vector > img {
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 16px;
+}
+
+.staffProfile {
+  text-align: center;
+  padding: 1rem;
+}
+
+.add {
+  border: 1px #061a6f;
+  border-style: dashed;
+  border-radius: 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  cursor: pointer;
+ 
+}
+
+.add > img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.add > h4 {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 20px;
+  color: #061a6f;
+}
+
+.modal, .overlay{
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+position: fixed;
+
+}
+
+.overlay{
+  background-color: rgba(49,49,49,0.8);
+}
+
+
+
+.modalTop{
+  display: flex; 
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modalTop>img{
+  cursor: pointer;
+}
+
+.modalBody>p{
+  margin-bottom: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.addHeader{
+  display: flex;
+}
+
+.search {
+  padding: 2rem;
+}
+
+.search > h4 {
+  margin-bottom: 1rem;
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.subject,
+.type {
+  width: 30%;
+  margin-right: 0.75rem;
+}
+
+.subject > select {
+  text-align: center;
+  background: #fafafa;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  margin-top: 0.25rem;
+}
+
+.type > select {
+  padding: 0.5rem 3.75rem;
+  text-align: center;
+  background: #fafafa;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  margin-top: 0.25rem;
+}
+
+.searchBox {
+  display: flex;
+  background-color: #fff;
+  padding: 0rem 1.5rem;
+  width: 30%;
+  align-items: center;
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+}
+
+.searchBox > input {
+  border: none;
+  background: none;
+  font-size: 1rem;
+}
+
+.searchBox > input:active {
+  border: none;
+}
+
+.searchBox > img {
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+}
+
+.multi > option {
+  padding: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.colProfile {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.rowProfile {
+  width: 31%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 16px;
+}
+
+.profileBottom {
+  margin-top: 1rem;
+  border-top: 0.5px solid #d3d3d3;
+  text-align: center;
+  display: flex;
+  color: #061a6f;
+  justify-content: space-around;
+  padding: 0.5rem 5.5rem;
+  align-items: center;
+}
+
+.profileBottom > p {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+}
+
+.userTopInfo {
+  display: flex;
+  margin-top: 0.75rem;
+  justify-content: space-between;
+}
+
+.userTopInfo > h3 {
+  font-size: 0.75rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.userBottomInfo > p {
+  color: #9a9a9a;
+  font-size: 0.7rem;
+  margin-bottom: 0.25rem;
+}
+
+.image {
+  width: 30%;
+  height: 7rem;
+  border-radius: 16px;
+  margin-right: 1rem;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.userProfileInfo {
+  width: 65%;
+}
+
+/* user */
+
+.userProfile {
+  position: relative;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f2f6ff;
+  padding: 1rem;
+}
+
+.profileBar{
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #0a1122 0%, #03194d 100%);
+  border-radius: 2rem;
+  padding-bottom: 1rem;
+}
+
+.profileTop{
+  display: flex;
+  color: white;
+align-items: center;
+  width: 100%;
+}
+
+
+.userPhoto{
+  width: 5rem;
+  height:5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.userPhoto>img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.userDetails{
+  display: flex;
+  width: 60%;
+justify-content: space-around;
+}
+
+.userGen{
+  width: 32%;
+}
+
+.userGen>span{
+display: flex;
+align-items: center;
+font-size: 0.75rem;
+}
+
+.userGen>h4{
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.userGen>p{
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.userContact>h4{
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+.userContact>span{
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+
+.userGen>span{
+  display: flex;
+}
+
+.userContact{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.userContact>span{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.userCircle{
+  width: 40%;
+  display: flex;
+  justify-content: right;
+}
+
+
+
+.userCircle>img{
+  
+  border-top-right-radius: 2rem;
+
+}
+
+.userDetails>span{
+  display: flex;
+align-items: center;
+}
+
+.userBottom{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+justify-content: space-around;
+}
+
+.bot{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bot>h3{
+  font-size: 1rem;
+}
+.bot>p{
+  font-size: 0.75rem;
+}
+
+
+.profileCard {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  justify-content: space-around;
+}
+
+.profileLeft {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: #fff;
+  border-radius: 16px;
+  gap: 10px;
+}
+
+.profileHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.profileImage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilePhoto {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.profilePhoto > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profileDesc > h3 {
+  font-size: 1rem;
+}
+
+.profileDesc > p {
+  font-size: 0.75rem;
+}
+
+.profileDesc > p > a {
+  letter-spacing: 0.13549px;
+  text-decoration-line: underline;
+  color: #d86500 !important;
+}
+
+.profileBody {
+  width: 100%;
+  height: 10rem;
+}
+
+.profileSecBody {
+  height: 5rem;
+  padding: 1rem;
+}
+
+.first {
+  display: flex;
+  align-items: center;
+}
+
+.first > input {
+  margin-right: 1rem;
+}
+
+.profileBody > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileFooter {
+  display: flex;
+  flex-direction: column;
+}
+
+.quality {
+  display: flex;
+}
+
+.quality > h4 {
+  margin-left: 1rem;
+  border: 1px solid;
+  border: none;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 5px;
+  background: #fdf3e9;
+  color: #e06522;
+}
+
+.interface {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.interface > span {
+  display: flex;
+  align-items: center;
+}
+
+.interface > span > p {
+  font-size: 0.75rem;
+}
+
+.para {
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+
+.comment {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border: 1px solid #eee;
+  padding: 0.25rem 0.75rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.comment > input {
+  border: none;
+}
+
+.comment > button {
+  border: none;
+  background: none;
+}
+
+.profileRight {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  background-color: #fff;
+  border-radius: 16px;
+  gap: 10px;
+  height: max-content;
+}
+
+/* birthday */
+
+.birthday {
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background: #f2f6ff;
+  border-radius: 2rem;
+margin: 0.5rem auto;
+left: 8%;
+}
+
+.birthdayPopup, .overlay{
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+
+  .modalContent{
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+   text-align: center;
+  width: max-content;
+  height: max-content;
+   border-radius: 6px;
+   padding: 1rem;
+  }
+
+.birthdayHeader {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.birthdayBalloon {
+  position: relative;
+  left: -8px;
+  width: 5rem;
+  height: 5rem;
+}
+
+.birthdayBalloon > img {
+  width: 100%;
+  height: 100%;
+}
+
+.birthdayHeading {
+  text-align: center;
+}
+
+.birthdayHeading>h2{
+  font-size: 1rem;
+}
+.birthdayHeading>p{
+  font-size: 1rem;
+}
+
+.birthdayCross {
+  margin-right: 1rem;
+}
+
+.birthdayCross>img{
+  
+  cursor: pointer;
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.birthdayBody {
+  display: flex;
+  width: 100%;
+  padding:0.5rem 1rem;
+  justify-content: space-between;
+}
+
+.same {
+  display: flex;
+  width: 80%;
+}
+
+.birthdayImage {
+  width: 3rem;
+  height: 4rem;
+  border-radius: 16px;
+}
+
+.birthdayImage > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+
+.birthdayContent {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-left: 1rem;
+}
+
+.birthdayName > h3 {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.birthdayAge > p {
+  font-size: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.birthdayPhoto {
+  border: 1px solid #d3d3d3;
+  display: flex;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+}
+
+.birthdayPhoto > img {
+  cursor: pointer;
+}
+
+.birthdayPhoto > input {
+  width: 100%;
+  border: none;
+
+  background: transparent;
+}
+
+.birthdayFooter {
+  background: #eeeeee;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+}
+
+.birthdayFooter > h4 {
+  text-align: center;
+  margin: 1rem auto;
+  color: #061a6f;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.birthdayPost {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.birthdayPost > button {
+  width: 100%;
+  background: linear-gradient(180deg, #0a1122 0%, #03194d 100%);
+  color: white;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* calender */
+
+
+
+.calenderPop, .overlay{
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+
+.Calender {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  border-radius: 2rem;
+  position: relative;
+  background: #f2f6ff;
+  border-radius: 2rem;
+  left: 8%;
+  margin: 0.5rem auto;
+}
+
+.calenderHeader {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #eeeeee;
+  align-items: center;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.calenderBalloon {
+  margin-left: 1rem;
+}
+
+.calenderBalloon > img {
+  cursor: pointer;
+}
+
+.calenderHeading {
+  text-align: center;
+}
+
+.calenderHeading > h2 {
+  font-size: 1.25rem;
+}
+
+.calenderHeading > p {
+  font-size: 1rem;
+}
+
+.calenderCol {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.calenderBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.calenderCard {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  padding: 1rem 1.5rem;
+}
+
+.calenderBody {
+  width: 100%;
+}
+
+.calenderImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 8px;
+}
+
+.calenderImage > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.calenderContent {
+  margin-left: 1rem;
+}
+
+.calenderContent > h4 {
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.calenderContent > p {
+  color: #686868;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    left: 2rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    width: 5rem;
+    height: 2rem;
+  }
+
+  .wrapper > ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper > ul > li > img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapper > ul > li  > p {
+    display: none;
+  }
+
+  .general {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .teacher {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: 45%;
+  }
+
+  .add {
+    width: 100%;
+    height: 5%;
+  }
+
+  .vector {
+    width: 8rem;
+    height: 8rem;
+    border-bottom-right-radius: 16px;
+  }
+
+  .vector > img {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 16px;
+  }
+
+  .colProfile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0rem;
+  }
+
+  .rowProfile {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .col {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem;
+  }
+
+  .row {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .buttons > button {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .userProfileImg {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+  }
+
+  .userProfileImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  .userInfo {
+    width: 100%;
+  }
+
+ 
+
+  .imageWithInfo {
+    width: 100%;
+  }
+
+
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+
+  .profileCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profileLeft {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .profileRight {
+    width: 100%;
+  }
+
+  .quality {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .quality > h4 {
+    position: relative;
+    margin: 0.5rem 1rem;
+  }
+
+  .birthdayBody {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .birthdayBalloon {
+    position: relative;
+    left: 0px;
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .same {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .birthdayPost {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .calenderCol {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+
+  .calenderCard {
+    width: 100%;
+  }
+
+  .profileTop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.userDetails{
+  display: flex;
+  margin-top: 1rem;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.userGen{
+width: 35%;
+}
+.userGen>h4{
+font-size: 0.75rem;
+}
+.userGen>p{
+font-size: 0.5rem;
+}
+.userGen>span{
+font-size: 0.5rem;
+}
+
+
+.userContact{
+  width: 40%;
+
+}
+.userContact>h4{
+  font-size: 0.75rem;
+}
+.userContact>span{
+  font-size: 0.5rem;
+  width: 5%;
+}
+
+.userCircle{
+  display: none
+}
+
+.bot>h3{
+  font-size: 0.75rem;
+}
+.bot>p{
+  font-size: 0.5rem;
+}
+
+
+.userPhoto{
+  margin-top: 1rem;
+}
+
+.Calender {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  top: 30%;
+  border-radius: 2rem;
+  position: relative;
+  background: #f2f6ff;
+  border-radius: 2rem;
+  left: 8%;
+ 
+}
+
+.if{
+  width: 150%;
+  border-radius: 8px;
+  padding: 0.25rem;
+  background: #061A6F;
+  align-items: center;
+ }
+
+
+
+}
