@@ -44,61 +44,61 @@ export default function Form() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="../../images/logo.png" />
       </Head>
-<main class={styles.main}>
-<div className={styles.homeLeft}>
+<main className='w-cover flex justify-around p-8'>
+<div className='w-2/12 flex-col items-center'>
 <Sidebar/>
 </div>
-<div className={styles.homeRight}>
-  <div className={styles.homeTop}>
+<div className='w-4/5 rounded-5xl'>
+  <div>
 <Header/>
 {/* <Studentheader/> */}
   </div>
-  <div className={styles.homeBottom}>
-  <div className={styles.form}>
-<div className={styles.info}>
-      <h1>Staff Information</h1>
+  <div>
+  <div className='relative rounded-b-3xl p-4 w-full flex-col bg-myBlue'>
+<div className='rounded-t-xl bg-myGray flex items-center justify-center h-16'>
+      <h1 className='text-xl flex items-center justify-center'>Staff Information</h1>
       </div>
-      <div className={styles.heading}>
-<div className={styles.col}>
-    <div className={styles.row}>
+      <div className='flex-col bg-white'>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Staff ID</p>
-<input type="text"  placeholder='Enter staff ID'/>
+<input type="text"  placeholder='Enter staff ID' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>First Name</p>
-<input type="text"  placeholder='Enter First Name'/>
+<input type="text"  placeholder='Enter First Name' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
 </div>
-<div className={styles.row}>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Last Name</p>
-<input type="text"  placeholder='Enter Last Name'/>
+<input type="text"  placeholder='Enter Last Name' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
 </div>
 </div>
-<div className={styles.col}>
-    <div className={styles.row}>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Department</p>
 <Select
 
     isMulti
     name="colors"
     options={departmentOptions}
-    className="basic-multi-select"
+    className="basic-multi-select bg-[#fafafa] text-base"
     classNamePrefix="select"
   />
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>Designation</p>
     <Select
-
+className=" bg-[#fafafa] text-base"
     options={designationOptions}
     
     classNamePrefix="select"
   />
 </div>
-<div className={styles.row}>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Gender</p>
 <Select
     
-
+    className=" bg-[#fafafa] text-base"
     name="colors"
     options={genderOptions}
    
@@ -106,39 +106,40 @@ export default function Form() {
   />
 </div>
 </div>
-<div className={styles.col}>
-    <div className={styles.row}>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Email</p>
-<input type="text"  placeholder='Enter Email'/>
+<input type="text"  placeholder='Enter Email' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>Phone No.</p>
-<input type="text"  placeholder='Enter Phone No.'/>
+<input type="text"  placeholder='Enter Phone No.' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
 </div>
-<div className={styles.row}>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Marital status</p>
-<input type="text"  placeholder='Enter Marital status'/>
+<input type="text"  placeholder='Enter Marital status' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
 </div>
 </div>
-<div className={styles.col}>
-    <div className={styles.row}>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Date of birth</p>
-<input type="text"  placeholder='Enter Date of birth'/>
+<input type="text"  placeholder='Enter Date of birth' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>School Name</p>
-<input type="text"  placeholder='Enter School Name'/>
+<input type="text"  placeholder='Enter School Name' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
 </div>
-<div className={styles.row}>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Last Name</p>
-<input type="text"  placeholder='Enter Last Name'/>
+<input type="text"  placeholder='Enter Last Name' className='py-2.5 px-6 border border-solid border-[#d3d3d3] rounded-sm mt-1 outline-none w-full'/>
 </div>
 </div>
 
+
       </div>
-      <div className={styles.buttons}>
-        <button className={styles.cancel}>Cancel</button>
-        <button className={styles.submit}>Submit</button>
+      <div className='block lg:flex py-4 px-12 w-full justify-end bg-white rounded-b-2xl'>
+        <button className='flex justify-center items-center py-2 px-8 rounded-xl border-none text-white cursor-pointer bg-[#de2135] mr-4 w-full mb-2 lg:w-1/5'>Cancel</button>
+        <button className='flex justify-center items-center py-2 px-8 rounded-xl border-none text-white cursor-pointer bg-gradient-to-r from-[#0A1122] to-[#03194D] mr-4 w-full mb-2 lg:w-1/5'>Submit</button>
       </div>
     </div>
   </div>

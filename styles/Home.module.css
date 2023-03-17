@@ -1,4 +1,4 @@
-/* main */
+/* main
 .main {
   display: flex;
   width: 100%;
@@ -18,11 +18,11 @@
   width: 80%;
   border-radius: 2rem;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
+} */
 
 /* sidebar */
 
-.sidebar {
+/* .sidebar {
   position: fixed;
   display: flex;
   flex-direction: column;
@@ -80,14 +80,14 @@ align-items: center;
  background: #061A6F;
  align-items: center;
  cursor: pointer;
-}
+} */
 
 
 
 
 /* header */
 
-.header {
+/* .header {
   position: relative;
   border-top-left-radius: 2rem;
   border-top-right-radius: 2rem;
@@ -134,11 +134,11 @@ align-items: center;
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-}
+} */
 
 /* form */
 
-.form {
+/* .form {
   position: relative;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
@@ -177,15 +177,15 @@ align-items: center;
   justify-content: space-between;
   padding: 0.25rem 2rem;
   margin: 1rem 0px;
-}
+} */
 
-.row {
+/* .row {
   display: flex;
   flex-direction: column;
   width: 25%;
 }
-
-.row > input {
+yha se karna hai */
+/* .row > input {
   padding: 0.65rem 1.5rem;
   border: 1px solid #d3d3d3;
   border-radius: 4px;
@@ -195,9 +195,9 @@ align-items: center;
 .row > select {
   background: #fafafa;
   font-size: 0.5rem;
-}
+} */
 
-.buttons {
+/* .buttons {
   display: flex;
   padding: 1rem 3rem;
   width: 100%;
@@ -225,17 +225,17 @@ align-items: center;
 .submit {
   background: linear-gradient(180deg, #0a1122 0%, #03194d 100%);
   margin-right: 2rem;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .col {
     display: flex;
     flex-direction: column;
   }
-}
+} */
 
 /* profile */
-.profile {
+/* .profile {
   position: relative;
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
@@ -298,9 +298,9 @@ align-items: center;
 .staffProfile {
   text-align: center;
   padding: 1rem;
-}
+} */
 
-.add {
+/* .add {
   border: 1px #061a6f;
   border-style: dashed;
   border-radius: 16px;
@@ -324,9 +324,9 @@ align-items: center;
   font-size: 0.75rem;
   line-height: 20px;
   color: #061a6f;
-}
+} */
 
-.modal, .overlay{
+/* .modal, .overlay{
 width: 100%;
 height: 100%;
 top: 0;
@@ -339,11 +339,11 @@ position: fixed;
 
 .overlay{
   background-color: rgba(49,49,49,0.8);
-}
+} */
 
 
 
-.modalTop{
+/* .modalTop{
   display: flex; 
   margin-bottom: 1rem;
   justify-content: space-between;
@@ -352,34 +352,34 @@ position: fixed;
 
 .modalTop>img{
   cursor: pointer;
-}
+} */
 
-.modalBody>p{
+/* .modalBody>p{
   margin-bottom: 1rem;
   cursor: pointer;
   font-weight: 500;
   font-size: 1rem;
-}
+} */
 
 .addHeader{
   display: flex;
 }
 
-.search {
+/* .search {
   padding: 2rem;
 }
 
 .search > h4 {
   margin-bottom: 1rem;
-}
+} */
 
-.input {
+/* .input {
   display: flex;
   width: 100%;
   justify-content: flex-start;
-}
+} */
 
-.subject,
+/* .subject,
 .type {
   width: 30%;
   margin-right: 0.75rem;
@@ -430,9 +430,9 @@ position: fixed;
 
 .multi > option {
   padding: 1rem;
-}
+} */
 
-.cards {
+/* .cards {
   display: flex;
   flex-direction: column;
 }
@@ -451,9 +451,9 @@ position: fixed;
   flex-direction: column;
   padding: 1rem;
   border-radius: 16px;
-}
+} */
 
-.profileBottom {
+/* .profileBottom {
   margin-top: 1rem;
   border-top: 0.5px solid #d3d3d3;
   text-align: center;
@@ -467,14 +467,14 @@ position: fixed;
 .profileBottom > p {
   font-weight: bold;
   font-size: 0.8rem;
-}
+} */
 
-.flex {
+/* .flex {
   display: flex;
   width: 100%;
-}
+} */
 
-.userTopInfo {
+/* .userTopInfo {
   display: flex;
   margin-top: 0.75rem;
   justify-content: space-between;
@@ -484,15 +484,15 @@ position: fixed;
   font-size: 0.75rem;
   color: black;
   margin-bottom: 0.5rem;
-}
+} */
 
-.userBottomInfo > p {
+/* .userBottomInfo > p {
   color: #9a9a9a;
   font-size: 0.7rem;
   margin-bottom: 0.25rem;
-}
+} */
 
-.image {
+/* .image {
   width: 30%;
   height: 7rem;
   border-radius: 16px;
@@ -503,11 +503,11 @@ position: fixed;
   width: 100%;
   height: 100%;
   border-radius: 16px;
-}
+} */
 
-.userProfileInfo {
+/* .userProfileInfo {
   width: 65%;
-}
+} */
 
 /* user */
 
@@ -522,7 +522,7 @@ position: fixed;
   padding: 1rem;
 }
 
-.profileBar{
+/* .profileBar{
   display: flex;
   flex-direction: column;
   background: linear-gradient(180deg, #0a1122 0%, #03194d 100%);
@@ -535,9 +535,9 @@ position: fixed;
   color: white;
 align-items: center;
   width: 100%;
-}
+} */
 
-
+/* 
 .userPhoto{
   width: 5rem;
   height:5rem;
@@ -549,15 +549,15 @@ align-items: center;
   height: 100%;
   border-radius: 50%;
   cursor: pointer;
-}
+} */
 
-.userDetails{
+/* .userDetails{
   display: flex;
   width: 60%;
 justify-content: space-around;
-}
+} */
 
-.userGen{
+/* .userGen{
   width: 32%;
 }
 
@@ -638,10 +638,10 @@ justify-content: space-around;
 }
 .bot>p{
   font-size: 0.75rem;
-}
+} */
 
 
-.profileCard {
+/* .profileCard {
   display: flex;
   width: 100%;
   margin-top: 2rem;
@@ -680,9 +680,9 @@ justify-content: space-around;
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-}
+} */
 
-.profileDesc > h3 {
+/* .profileDesc > h3 {
   font-size: 1rem;
 }
 
@@ -694,9 +694,9 @@ justify-content: space-around;
   letter-spacing: 0.13549px;
   text-decoration-line: underline;
   color: #d86500 !important;
-}
+} */
 
-.profileBody {
+/* .profileBody {
   width: 100%;
   height: 10rem;
 }
@@ -719,9 +719,9 @@ justify-content: space-around;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 
-.profileFooter {
+/* .profileFooter {
   display: flex;
   flex-direction: column;
 }
@@ -778,9 +778,9 @@ justify-content: space-around;
 .comment > button {
   border: none;
   background: none;
-}
+} */
 
-.profileRight {
+/* .profileRight {
   display: flex;
   flex-direction: column;
   width: 45%;
@@ -788,11 +788,11 @@ justify-content: space-around;
   border-radius: 16px;
   gap: 10px;
   height: max-content;
-}
+} */
 
 /* birthday */
 
-.birthday {
+/* .birthday {
   position: relative;
   width: 50%;
   display: flex;
@@ -896,9 +896,9 @@ left: 8%;
   width: 100%;
   height: 100%;
   border-radius: 16px;
-}
+} */
 
-.birthdayContent {
+/* .birthdayContent {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -933,7 +933,7 @@ left: 8%;
   border: none;
 
   background: transparent;
-}
+} */
 
 .birthdayFooter {
   background: #eeeeee;
@@ -949,7 +949,7 @@ left: 8%;
   cursor: pointer;
 }
 
-.birthdayPost {
+/* .birthdayPost {
   width: 10%;
   display: flex;
   flex-direction: column;
@@ -963,13 +963,13 @@ left: 8%;
   padding: 0.5rem 0.75rem;
   border-radius: 8px;
   cursor: pointer;
-}
+} */
 
 /* calender */
 
 
 
-.calenderPop, .overlay{
+/* .calenderPop, .overlay{
   width: 100%;
   top: 0;
   left: 0;
@@ -1022,9 +1022,9 @@ left: 8%;
 
 .calenderHeading > p {
   font-size: 1rem;
-}
+} */
 
-.calenderCol {
+/* .calenderCol {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1034,9 +1034,9 @@ left: 8%;
 .calenderBody {
   display: flex;
   flex-direction: column;
-}
+} */
 
-.calenderCard {
+/* .calenderCard {
   display: flex;
   align-items: center;
   width: 30%;
@@ -1073,10 +1073,12 @@ left: 8%;
   color: #686868;
   font-size: 0.75rem;
   cursor: pointer;
-}
+} */
+
+/* configuration */
 
 @media (max-width: 768px) {
-  .sidebar {
+  /* .sidebar {
     position: fixed;
     left: 2rem;
     height: 100%;
@@ -1105,9 +1107,9 @@ left: 8%;
 
   .wrapper > ul > li  > p {
     display: none;
-  }
+  } */
 
-  .general {
+  /* .general {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -1134,7 +1136,7 @@ left: 8%;
     width: 100%;
     height: 100%;
     border-bottom-right-radius: 16px;
-  }
+  } */
 
   .colProfile {
     display: flex;
@@ -1146,7 +1148,7 @@ left: 8%;
     width: 100%;
     margin-bottom: 2rem;
   }
-
+/* 
   .col {
     display: flex;
     flex-direction: column;
@@ -1167,7 +1169,7 @@ left: 8%;
   .buttons > button {
     margin-bottom: 1rem;
     width: 100%;
-  }
+  } */
 
   .userProfileImg {
     width: 5rem;
@@ -1208,7 +1210,7 @@ left: 8%;
   }
 
 
-  .profileCard {
+  /* .profileCard {
     display: flex;
     flex-direction: column;
   }
@@ -1216,9 +1218,9 @@ left: 8%;
   .profileLeft {
     width: 100%;
     margin-bottom: 1rem;
-  }
+  } */
 
-  .profileRight {
+  /* .profileRight {
     width: 100%;
   }
 
@@ -1230,20 +1232,20 @@ left: 8%;
   .quality > h4 {
     position: relative;
     margin: 0.5rem 1rem;
-  }
+  } */
 
-  .birthdayBody {
+  /* .birthdayBody {
     display: flex;
     flex-direction: column;
 
-  }
+  } */
 
-  .birthdayBalloon {
+  /* .birthdayBalloon {
     position: relative;
     left: 0px;
     width: 5rem;
     height: 5rem;
-  }
+  } */
 
   .same {
     display: flex;
@@ -1266,20 +1268,20 @@ left: 8%;
     width: 100%;
   }
 
-  .profileTop{
+  /* .profileTop{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-}
+} */
 
-.userDetails{
+/* .userDetails{
   display: flex;
   margin-top: 1rem;
   width: 80%;
   justify-content: space-around;
-}
+} */
 
-.userGen{
+/* .userGen{
 width: 35%;
 }
 .userGen>h4{
@@ -1314,7 +1316,7 @@ font-size: 0.5rem;
 }
 .bot>p{
   font-size: 0.5rem;
-}
+} */
 
 
 .userPhoto{

@@ -40,37 +40,37 @@ export default function Studentform() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="../../images/logo.png" />
       </Head>
-<main class={styles.main}>
-<div className={styles.homeLeft}>
+<main className='w-cover flex justify-around p-8'>
+<div className='w-2/12 flex-col items-center'>
 <Studentsidebar/>
 </div>
-<div className={styles.homeRight}>
-  <div className={styles.homeTop}>
+<div className='w-4/5 rounded-5xl'>
+  <div>
 <Studentheader/>
 {/* <Studentheader/> */}
   </div>
-  <div className={styles.homeBottom}>
-  <div className={styles.form}>
-<div className={styles.info}>
-      <h1>Student Information</h1>
+  <div>
+  <div className='relative rounded-b-3xl p-4 w-full flex-col bg-myBlue'>
+<div className='rounded-t-xl bg-myGray flex items-center justify-center h-16'>
+      <h1 className='text-xl flex items-center justify-center'>Student Information</h1>
       </div>
-      <div className={styles.heading}>
-<div className={styles.col}>
-    <div className={styles.row}>
+      <div className='flex-col bg-white'>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Roll No.</p>
 <input type="text"  placeholder='Enter staff ID'/>
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>First Name</p>
 <input type="text"  placeholder='Enter First Name'/>
 </div>
-<div className={styles.row}>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Last Name</p>
 <input type="text"  placeholder='Enter Last Name'/>
 </div>
 </div>
-<div className={styles.col}>
-    <div className={styles.row}>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Standard</p>
 <Select
 
@@ -81,11 +81,11 @@ export default function Studentform() {
     classNamePrefix="select"
   />
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>School Name</p>
     <input type="text"  placeholder='Enter School Name'/>
 </div>
-<div className={styles.row}>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
         <p>Gender</p>
     <Select
 
@@ -97,24 +97,24 @@ classNamePrefix="select"
 />
     </div>
 </div>
-<div className={styles.col}>
-<div className={styles.row}>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
+<div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Email</p>
     <input type="text"  placeholder="Enter Email"/>
 </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Phone no.</p>
 <input type="text"  placeholder='Enter Phone no.'/>
     </div>
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
 <p>Father's Name</p>
 <input type="text"  placeholder="Enter Father's Name"/>
     </div>
 
 </div>
-<div className={styles.col}>
+<div className='block lg:flex lg:justify-between py-1 px-8'>
 
-    <div className={styles.row}>
+    <div className='lg:flex-col lg:w-1/4 w-full mb-2'>
     <p>Date of Birth</p>
 <input type="text"  placeholder='Enter Date of Birth'/>
 </div>
